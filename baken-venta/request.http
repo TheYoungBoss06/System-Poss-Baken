@@ -1,0 +1,12 @@
+GET http://localhost:3000/validate
+
+
+
+HTTP/1.1 400  - Bad Request
+x-powered-by: Express
+access-control-allow-origin: *
+content-type: application/json; charset=utf-8
+content-length: 38
+etag: W/"26-TB1m076n4R7xHQGVvgDm/qznSQg"
+date: Thu, 01 May 2025 16:36:43 GMT
+connection: close

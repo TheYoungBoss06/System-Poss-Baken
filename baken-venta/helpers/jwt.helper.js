@@ -1,28 +1,29 @@
 const jwt = require('jsonwebtoken');
-
 const { response, request } = require('express');
+const SECRETJWT = 'JWT.Secr3t-10dfad3454343545350Aqadint0vagijujutyy.td'; // Define la clave secreta
+
 
 const generarJWT = (id_usuario, user_name) => {
-
     return new Promise((resolve, reject) => {
-
         const payload = { id_usuario, user_name };
-        const claveEncriptado = process.env.SECRETJWT;
+
+        console.log('Clave secreta usada para JWT:', SECRETJWT); // Verifica que no sea undefined
 
         jwt.sign(
             payload,
-            claveEncriptado,
-            { expiresIn: '8hrs' },
+            SECRETJWT, // Usamos la clave secreta definida anteriormente
+            { expiresIn: '8h' }, // Nota: '8h', no '8hrs'
             (err, token) => {
                 if (err) {
-                    console.log(err)
-                    reject('Error al generar JWT')
+                    console.log(err);
+                    reject('Error al generar JWT');
                 } else {
-                    resolve(token)
+                    resolve(token);
                 }
-            })
-    })
-}
+            }
+        );
+    });
+};
 
 
 const validarJWT = (req = request, res = response, next) => {
@@ -30,25 +31,22 @@ const validarJWT = (req = request, res = response, next) => {
     
     if (!token) {
         return res.status(400).json({
-            msg: 'No hay token en la peticion'
-        })
+            msg: 'No hay token en la petición'
+        });
     }
-
+    
     try {
-        const payloadJWT = jwt.verify(token, process.env.SECRETJWT);
-        req.usuarioJWT = payloadJWT
-        console.log(payloadJWT)
+        const payloadJWT = jwt.verify(token, SECRETJWT); // Usamos SECRETJWT aquí
+        req.usuarioJWT = payloadJWT;
         next();
     } catch (error) {
-        res.status(401).json({
+        return res.status(401).json({
             msg: 'El token usado no es válido'
         });
     }
-}
-
+};
 
 module.exports = {
     generarJWT,
     validarJWT
-
-}
+};

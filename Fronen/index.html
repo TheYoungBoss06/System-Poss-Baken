@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel Admin</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- Puedes usar iconos de Boxicons o Font Awesome si deseas -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+      <h2 class="logo">Admin</h2>
+      <nav class="nav">
+        <a href="#" class="nav-item active"><i class='bx bx-home'></i> Dashboard</a>
+        <a href="#" class="nav-item"><i class='bx bx-user'></i> Usuarios</a>
+        <a href="#" class="nav-item"><i class='bx bx-cog'></i> Ajustes</a>
+        <a href="#" class="nav-item" id="btnLogout"><i class='bx bx-log-out'></i> Salir</a>
+      </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="main-content">
+      <!-- Encabezado superior -->
+
+
+<!-- Agrega este botón DENTRO del <header class="header"> -->
+<header class="header">
+  <h1>Dashboard</h1>
+  <div class="header-right">
+    <i class='bx bx-bell'></i>
+    <i class='bx bx-user-circle'></i>
+
+  </div>
+</header>
+
+
+
+
+      <!-- Sección de estadísticas o tarjetas -->
+      <section class="cards">
+        <div class="card">
+          <h3>Usuarios</h3>
+          <p>1,245</p>
+        </div>
+        <div class="card">
+          <h3>Ventas</h3>
+          <p>$12,500</p>
+        </div>
+        <div class="card">
+          <h3>Visitantes</h3>
+          <p>8,900</p>
+        </div>
+      </section>
+    </main>
+  </div>
+ <!-- Scripts: importa primero los módulos funcionales y al final main.js -->
+ <script src="js/reportes.js"></script>
+ <script src="js/usuarios.js"></script>
+ <script src="js/ventas.js"></script>
+ <script src="js/main.js"></script> <!-- Este debe ir al final -->
+</body>
+</html>

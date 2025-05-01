@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="login-container">
+    <!-- Columna izquierda: bienvenida -->
+    <div class="login-left">
+      <div class="container-text">
+        <img src="../assets/images/logo.png" alt="logo">
+        <h1>¡Bienvenido de nuevo!</h1>
+        <p>Inicia sesión en tu cuenta</p>
+      </div>
+      <!-- Imagen decorativa -->
+    </div>
+
+    <!-- Columna derecha: formulario -->
+    <div class="login-right">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required />
+
+        <div class="options">
+          <a href="../pages/registre.html">Registrarse</a>
+          <a href="#">Has olvidado tu contraseña?</a>
+        </div>
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+  <script src="../js/login.js"></script>
+</body>
+</html>
