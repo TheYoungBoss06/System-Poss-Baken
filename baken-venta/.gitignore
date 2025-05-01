@@ -1,0 +1,12 @@
+
+#Modulos de node
+/node_modules
+
+
+#Variables de entorno
+.env
+
+
+# System files
+.DS_Store
+Thumbs.db
