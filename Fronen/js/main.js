@@ -74,3 +74,6 @@ document.getElementById('btnLogout').addEventListener('click', () => {
     localStorage.removeItem('token'); // Eliminar el token
     window.location.href = '/Fronen/pages/login.html'; // Redirigir al login
   });
+
+
+  // prueba

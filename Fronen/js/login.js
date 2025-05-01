@@ -5,6 +5,7 @@ const token = localStorage.getItem('token');
 
 if (token) {
   // El usuario ya ha iniciado sesión, redirigirlo al panel principal u otra página
+  // Aquí puedes cambiar la ruta a la que quieras redirigir al usuario
   window.location.href = '/Fronen/index.html'; // Cambia esta ruta a la adecuada
 }
 
