@@ -1,4 +1,35 @@
 
+  // Verificar si el token está presente en el localStorage
+  const token = localStorage.getItem('token');
+
+  if (!token) {
+      // Si no hay token, redirigir al login
+      window.location.href = '/Fronen/pages/login.html';
+  } else {
+      // Validar el token con el backend
+      fetch('http://localhost:3000/validate', {
+          method: 'GET',
+          headers: {
+              'token': token // Enviar el token al backend
+          }
+      })
+      .then(res => {
+          if (!res.ok) {
+              throw new Error('Token inválido');
+          }
+          return res.json();
+      })
+      .then(data => {
+          console.log('Token válido:', data);
+      })
+      .catch(() => {
+          // Si el token es inválido, redirigir al login
+          localStorage.removeItem('token');
+          window.location.href = '/Fronen/pages/login.html';
+      });
+  }
+
+  
 let productos = []; // Lista de productos disponibles
 let total = 0; // Total acumulado
 const facturaProductos = document.querySelector('.factura-productos');
