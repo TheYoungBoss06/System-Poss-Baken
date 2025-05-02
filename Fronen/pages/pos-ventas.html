@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>POS - Facturar</title>
+  <link rel="stylesheet" href="../css/dashboard.css" />
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="barraSuperior">
+    <h1>Facturar</h1>
+    <div class="barraSuperior-derecho ">
+      <button class="btn-icon">🔔</button>
+      <button class="btn-icon">⚙️</button>
+      <button class="user-btn">Tienda</button>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <div class="container">
+
+    <!-- Panel izquierdo: Productos -->
+    <section class="panel-izquierdo">
+      <div class="busqueda-productos">
+        <input type="text" id="filtroNombre" placeholder="Buscar productos..." oninput="buscarProductos()" />
+        <button class="btn-nuevo">+ Nuevo producto</button>
+        
+      </div>
+
+      <div id="producto-container" class="grid-productos">
+        <!-- Aquí se insertarán las tarjetas -->
+      </div>
+    </section>
+
+    <!-- Panel derecho: Factura -->
+    <aside class="panel-derecho">
+      <h2>Factura de venta</h2>
+
+      <div class="factura-opciones">
+        <select>
+          <option>Lista de precio: General</option>
+        </select>
+        <select>
+          <option>Numeración: Principal</option>
+        </select>
+        <input type="text" placeholder="Cliente: Consumidor final" id="cliente-input" />
+        <button class="btn-nuevo" id="btn-nuevo">Agregar cliente nuevo</button>
+      </div>
+
+      <div class="factura-productos">
+        <p>Aquí verás los productos que elijas en tu próxima venta</p>
+      </div>
+
+      <div class="factura-footer">
+        <button class="btn-vender">Vender</button>
+        <div>Total: RD$<span id="total">0.00</span></div>
+      </div>
+    </aside>
+  </div>
+
+  <script src="../js/pos-ventas.js"></script>
+</body>
+</html>

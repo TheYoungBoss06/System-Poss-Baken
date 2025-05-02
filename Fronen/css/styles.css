@@ -1,4 +1,14 @@
 /* styles.css */
+:root {
+  --color-principal: #1067da;
+  --color-secundario: #2c7ce6;
+  --color-fondo: #f4f6f8;
+  --color-texto: #333;
+  --color-blanco: #ffffff;
+  --color-gris-claro: #ccc;
+  --color-gris-oscuro: #888;
+  --color-borde: #e0e0e0;
+}
 
 /* Reset básico */
 
@@ -246,6 +256,7 @@ cursor: pointer;
 button:hover {
 background-color: #212cd1;
 }
+
 
 
 /* ----------------- RESPONSIVE DESIGN ------------------ */

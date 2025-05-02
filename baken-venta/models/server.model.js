@@ -2,7 +2,7 @@ require('dotenv').config(); // Para cargar las variables del archivo .env
 const express = require('express');
 const cors = require('cors');
 const { createServer } = require('http');
-
+const productos = require('../db/productos'); // Asegúrate de que la ruta sea correcta
 class Server {
     constructor() {
         this.app = express();
@@ -36,7 +36,12 @@ class Server {
 
         // Ruta para validar el JWT
         this.app.use('/validate', require('../routes/validate.routes')); // Asegúrate de tener este archivo
+        
+        this.app.get('/api/productos', (req, res) => {
+            res.json(productos);
+          });
     }
+    
 
     // Método para iniciar el servidor
     listen() {
