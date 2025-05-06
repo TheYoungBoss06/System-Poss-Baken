@@ -1,12 +1,30 @@
-GET http://localhost:3000/validate
+POST http://localhost:3000/api/facturas HTTP/1.1
+{
+  "cliente": "Juan Pérez",
+  "productos": [
+    {
+      "nombre": "Producto 1",
+      "cantidad": 2,
+      "imagen": "img/producto1.png",
+      "precio": 50
+    },
+    {
+      "nombre": "Producto 2",
+      "cantidad": 1,
+      "imagen": "img/producto2.png",
+      "precio": 75
+    }
+  ],
+  "total": 175
+}
 
 
-
-HTTP/1.1 400  - Bad Request
+HTTP/1.1 500  - Internal Server Error
 x-powered-by: Express
 access-control-allow-origin: *
-content-type: application/json; charset=utf-8
-content-length: 38
-etag: W/"26-TB1m076n4R7xHQGVvgDm/qznSQg"
-date: Thu, 01 May 2025 16:36:43 GMT
+content-security-policy: default-src 'none'
+x-content-type-options: nosniff
+content-type: text/html; charset=utf-8
+content-length: 1512
+date: Sat, 03 May 2025 02:13:26 GMT
 connection: close

@@ -2,7 +2,12 @@ require('dotenv').config(); // Para cargar las variables del archivo .env
 const express = require('express');
 const cors = require('cors');
 const { createServer } = require('http');
-const productos = require('../db/productos'); // Asegúrate de que la ruta sea correcta
+const facturaRoutes = require('../routes/factura.routes'); 
+const productos = require('../db/productos'); 
+const facturas = require('../db/facturas.json'); 
+
+const { estadisticasLista } = require('../db/estadisticas');
+
 class Server {
     constructor() {
         this.app = express();
@@ -10,7 +15,7 @@ class Server {
         this.httpServer = createServer(this.app); // Servidor HTTP
         
         // Middleware para parsear JSON (Express ya lo incluye)
-        this.app.use(express.json());
+        this.app.use(express.json());  // Esto es lo más importante
 
         // Configuración de middlewares y rutas
         this.middlewares();
@@ -37,11 +42,23 @@ class Server {
         // Ruta para validar el JWT
         this.app.use('/validate', require('../routes/validate.routes')); // Asegúrate de tener este archivo
         
+        // Ruta para obtener productos (api/productos)
         this.app.get('/api/productos', (req, res) => {
             res.json(productos);
-          });
+        });
+
+        this.app.get('/api/facturas', (req, res) => {
+            res.json(facturas);
+        });
+
+        // Ruta para obtener estadísticas (api/estadisticas)
+        this.app.get('/api/estadisticas', (req, res) => {
+            res.json(estadisticasLista);
+        });
+
+        // Ruta para la API de facturas
+        this.app.use('/api', facturaRoutes); // Asegúrate de que esta ruta esté bien definida en el archivo factura.routes.js
     }
-    
 
     // Método para iniciar el servidor
     listen() {

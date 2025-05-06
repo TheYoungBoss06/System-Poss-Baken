@@ -1,0 +1,188 @@
+[
+  {
+    "cliente": "sdasd",
+    "productos": [
+      {
+        "nombre": "Pala De Corte",
+        "cantidad": 4,
+        "imagen": "https://images.unsplash.com/photo-1651197227940-60c9d32f89e7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1800
+      },
+      {
+        "nombre": "Tester De Medir Voltage",
+        "cantidad": 1,
+        "imagen": "https://images.unsplash.com/photo-1710194572710-bbd92a2d3f9c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 600
+      }
+    ],
+    "total": 7800,
+    "fecha": "2025-05-03T02:50:28.540Z"
+  },
+  {
+    "cliente": "sdasd",
+    "productos": [
+      {
+        "nombre": "Pala De Corte",
+        "cantidad": 6,
+        "imagen": "https://images.unsplash.com/photo-1651197227940-60c9d32f89e7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1800
+      },
+      {
+        "nombre": "Colin Alimado",
+        "cantidad": 3,
+        "imagen": "https://images.unsplash.com/photo-1602510904648-cef1a47d92d4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1707
+      },
+      {
+        "nombre": "Cubo Mecanico",
+        "cantidad": 4,
+        "imagen": "https://images.unsplash.com/photo-1657776655487-18dcab7b2c65?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 300
+      },
+      {
+        "nombre": "Tester De Medir Voltage",
+        "cantidad": 3,
+        "imagen": "https://images.unsplash.com/photo-1710194572710-bbd92a2d3f9c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 600
+      }
+    ],
+    "total": 18921,
+    "fecha": "2025-05-03T03:03:46.551Z"
+  },
+  {
+    "cliente": "perla",
+    "productos": [
+      {
+        "nombre": "Tester De Medir Voltage",
+        "cantidad": 5,
+        "imagen": "https://images.unsplash.com/photo-1710194572710-bbd92a2d3f9c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 600
+      },
+      {
+        "nombre": "Pala De Corte",
+        "cantidad": 8,
+        "imagen": "https://images.unsplash.com/photo-1651197227940-60c9d32f89e7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1800
+      },
+      {
+        "nombre": "Cubo Mecanico",
+        "cantidad": 5,
+        "imagen": "https://images.unsplash.com/photo-1657776655487-18dcab7b2c65?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 300
+      },
+      {
+        "nombre": "Colin Alimado",
+        "cantidad": 5,
+        "imagen": "https://images.unsplash.com/photo-1602510904648-cef1a47d92d4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1707
+      },
+      {
+        "nombre": "Ajustable De Mano",
+        "cantidad": 5,
+        "imagen": "https://images.unsplash.com/photo-1503789188050-804ee34b3d32?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 890
+      },
+      {
+        "nombre": "Tubo PVC Media Precion",
+        "cantidad": 4,
+        "imagen": "https://plus.unsplash.com/premium_photo-1661577094877-725f859aff3e?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 141
+      }
+    ],
+    "total": 32449,
+    "fecha": "2025-05-03T03:06:56.183Z"
+  },
+  {
+    "cliente": "jose",
+    "productos": [
+      {
+        "nombre": "Cubo Mecanico",
+        "cantidad": 3,
+        "imagen": "https://images.unsplash.com/photo-1657776655487-18dcab7b2c65?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 300
+      },
+      {
+        "nombre": "Pala De Corte",
+        "cantidad": 4,
+        "imagen": "https://images.unsplash.com/photo-1651197227940-60c9d32f89e7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1800
+      },
+      {
+        "nombre": "Tester De Medir Voltage",
+        "cantidad": 4,
+        "imagen": "https://images.unsplash.com/photo-1710194572710-bbd92a2d3f9c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 600
+      },
+      {
+        "nombre": "Colin Alimado",
+        "cantidad": 3,
+        "imagen": "https://images.unsplash.com/photo-1602510904648-cef1a47d92d4?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1707
+      }
+    ],
+    "total": 15621,
+    "fecha": "2025-05-03T04:05:07.150Z"
+  },
+  {
+    "cliente": "juana",
+    "productos": [
+      {
+        "nombre": "Pala De Corte",
+        "cantidad": 1,
+        "imagen": "https://images.unsplash.com/photo-1651197227940-60c9d32f89e7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1800
+      },
+      {
+        "nombre": "Martillo De Madera",
+        "cantidad": 1,
+        "imagen": "https://images.unsplash.com/photo-1679210208120-1b6a008be9b4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 2546.56
+      },
+      {
+        "nombre": "Cubo Mecanico",
+        "cantidad": 2,
+        "imagen": "https://images.unsplash.com/photo-1657776655487-18dcab7b2c65?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 300
+      },
+      {
+        "nombre": "Tape Plastico Negro",
+        "cantidad": 1,
+        "imagen": "https://plus.unsplash.com/premium_photo-1715107534930-cba319aff03d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 25
+      },
+      {
+        "nombre": "Alambre De Tejer",
+        "cantidad": 1,
+        "imagen": "https://images.unsplash.com/photo-1518994255497-c5f17690567f?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1000
+      }
+    ],
+    "total": 5971.5599999999995,
+    "fecha": "2025-05-03T04:10:10.211Z"
+  },
+  {
+    "cliente": "carlos",
+    "productos": [
+      {
+        "nombre": "Pala De Corte",
+        "cantidad": 4,
+        "imagen": "https://images.unsplash.com/photo-1651197227940-60c9d32f89e7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1800
+      },
+      {
+        "nombre": "Martillo De Madera",
+        "cantidad": 3,
+        "imagen": "https://images.unsplash.com/photo-1679210208120-1b6a008be9b4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 2546.56
+      },
+      {
+        "nombre": "Cubo Mecanico",
+        "cantidad": 2,
+        "imagen": "https://images.unsplash.com/photo-1657776655487-18dcab7b2c65?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 300
+      }
+    ],
+    "total": 15439.679999999998,
+    "fecha": "2025-05-03T04:12:45.319Z"
+  }
+]

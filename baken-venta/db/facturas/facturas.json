@@ -1,0 +1,21 @@
+[
+  {
+    "cliente": "maria",
+    "productos": [
+      {
+        "nombre": "Pala De Corte",
+        "cantidad": 5,
+        "imagen": "https://images.unsplash.com/photo-1651197227940-60c9d32f89e7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 1800
+      },
+      {
+        "nombre": "Tester De Medir Voltage",
+        "cantidad": 2,
+        "imagen": "https://images.unsplash.com/photo-1710194572710-bbd92a2d3f9c?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "precio": 600
+      }
+    ],
+    "total": 10200,
+    "fecha": "2025-05-03T02:46:30.004Z"
+  }
+]
